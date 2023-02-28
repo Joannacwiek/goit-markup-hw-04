@@ -155,6 +155,11 @@ header {
 .advantages-item {
   flex-basis: calc((100% - 90px) / 4);
 }
+.icon-background {
+  background-color: #f5f4fa;
+  width: 270px;
+  height: 120px;
+}
 /*.advantages-text {
   text-align: left;
   color: var(--paragraf-text-color);
