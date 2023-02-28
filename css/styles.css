@@ -137,7 +137,7 @@ header {
   color: var(--white-color);
   text-transform: uppercase;
 }
-/*What we do Section*/
+
 .section-title {
   font-size: 36px;
   font-weight: 700;
@@ -146,6 +146,23 @@ header {
   color: var(--brand-black);
   margin-bottom: 20px;
 }
+/*Advantages*/
+.advantages-list {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+}
+.advantages-item {
+  flex-basis: calc((100% - 90px) / 4);
+}
+/*.advantages-text {
+  text-align: left;
+  color: var(--paragraf-text-color);
+  line-height: 1.71;
+  font-size: 14px;
+  letter-spacing: 0.03em;}*/
+
+/*What we do Section*/
 .we-do-title {
   font-weight: 700;
   text-align: left;
