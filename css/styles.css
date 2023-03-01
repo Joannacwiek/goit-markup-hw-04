@@ -158,7 +158,7 @@ header {
 }
 .advantages-item {
   flex-basis: calc((100% - 90px) / 4);
-  padding: 25px 100px 25px 100px;
+  padding: 0px 100px 125px 100px;
 }
 .icon-background {
   background-color: #f5f4fa;
