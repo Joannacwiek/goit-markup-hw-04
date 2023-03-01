@@ -209,6 +209,28 @@ header {
   border-radius: 0px 0px 4px 4px;
   background: #ffffffff;
 }
+.icon-class {
+  fill: #757575;
+  display: block;
+}
+.social-icons {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 16px;
+}
+.social-icons > li,
+.social-icons-footer > li {
+  padding: 12px 12px;
+  border-radius: 50%;
+}
+.social-icons li:hover,
+.social-icons li:focus {
+  background-color: var(--blue-color);
+  --icon-color: #757575;
+  cursor: pointer;
+}
 .box {
   display: flex;
   gap: 30px;
