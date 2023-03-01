@@ -50,6 +50,7 @@ header {
   font-size: 26px;
   line-height: 1.875;
   color: #000000;
+  text-decoration: none;
 }
 /*navigation*/
 
@@ -157,28 +158,26 @@ header {
 }
 .advantages-item {
   flex-basis: calc((100% - 90px) / 4);
+  padding: 25px 100px 25px 100px;
 }
 .icon-background {
   background-color: #f5f4fa;
   width: 270px;
   height: 120px;
 }
-/*.advantages-text {
-  line-height: 1.71;
- }*/
 
 /*What we do Section*/
 .we-do-title {
   font-weight: 700;
   text-align: left;
-  line-height: 1.7;
+  line-height: 2.625;
   text-transform: uppercase;
   color: var(--brand-black);
   margin-bottom: 10px;
 }
 .we-do-description {
   font-size: 14px;
-  line-height: 1.5;
+  line-height: 1.7;
   text-align: justify;
 }
 /*Our Team Section*/
@@ -225,7 +224,7 @@ header {
 .social-icons li:hover,
 .social-icons li:focus {
   background-color: var(--blue-color);
-  --icon-color: #ffffff;
+  fill: #ffffff;
   cursor: pointer;
 }
 .box {
@@ -264,7 +263,7 @@ header {
 .clients-list-item:hover,
 .clients-list-item:focus {
   border-color: var(--blue-color);
-  --icon-color: var(--blue-color);
+  fill: var(--blue-color);
 }
 .clients-icon-class {
   fill: #afb1b8;
