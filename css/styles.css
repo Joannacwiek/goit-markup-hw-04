@@ -222,7 +222,8 @@ header {
   border-radius: 50%;
 }
 .social-icons li:hover,
-.social-icons li:focus {
+.social-icons li:focus,
+.social-icons:active {
   background-color: var(--blue-color);
   fill: #ffffff;
   cursor: pointer;
