@@ -316,6 +316,7 @@ header {
 .social-icons-footer li {
   border-radius: 50%;
   background-color: #3e3e3e;
+  fill: #ffffff;
 }
 .social-icons-footer {
   display: flex;
