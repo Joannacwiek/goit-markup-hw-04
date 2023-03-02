@@ -90,6 +90,10 @@ header {
   cursor: pointer;
   text-decoration: none;
 }
+.icon-contact {
+  margin-right: 10px;
+  --color4: var(--blue-color);
+}
 
 /*hero*/
 
@@ -155,19 +159,19 @@ header {
   display: flex;
   justify-content: space-between;
   gap: 30px;
+  flex-direction: block;
 }
 .advantages-item {
   flex-basis: calc((100% - 90px) / 4);
-  padding: 0px 100px 225px 100px;
+  /*padding: 0px 100px 225px 100px;*/
 }
 .icon-background {
   background-color: #f5f4fa;
   width: 270px;
-  height: 120px;
+  /*padding: 25px 100px;*/
+  border-radius: 4px;
 }
-
-/*What we do Section*/
-.we-do-title {
+.advantages-title {
   font-weight: 700;
   text-align: left;
   line-height: 2.625;
@@ -175,10 +179,9 @@ header {
   color: var(--brand-black);
   margin-bottom: 10px;
 }
-.we-do-description {
-  font-size: 14px;
+.advantages-description {
   line-height: 1.7;
-  text-align: justify;
+  text-align: left;
 }
 /*Our Team Section*/
 
@@ -225,7 +228,7 @@ header {
 .social-icons li:focus,
 .social-icons:active {
   background-color: var(--blue-color);
-  fill: #ffffff;
+  --icon-color: #ffffff;
   cursor: pointer;
 }
 .box {
@@ -264,7 +267,8 @@ header {
 .clients-list-item:hover,
 .clients-list-item:focus {
   border-color: var(--blue-color);
-  fill: var(--blue-color);
+  /*fill: var(--blue-color);*/
+  --icon-color: var(--blue-color);
 }
 .clients-icon-class {
   fill: #afb1b8;
@@ -316,7 +320,7 @@ header {
 .social-icons-footer li {
   border-radius: 50%;
   background-color: #3e3e3e;
-  fill: #ffffff;
+  --icon-color: #ffffff;
 }
 .social-icons-footer {
   display: flex;
@@ -331,7 +335,6 @@ header {
 .join-title {
   color: #ffffff;
   text-transform: uppercase;
-  font-size: 14px;
   line-height: 1.14;
 }
 .footer-flex {
