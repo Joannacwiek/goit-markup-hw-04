@@ -277,7 +277,7 @@ header {
   color: var(--white-color);
   padding: 60px 0px 60px 0px;
   max-width: 1600px;
-  margin: auto;
+  margin: 0px auto 0px auto;
 }
 
 .footer-logo {
@@ -315,7 +315,7 @@ header {
 
 .social-icons-footer li {
   border-radius: 50%;
-  background-color: #212121;
+  background-color: #3e3e3e;
 }
 .social-icons-footer {
   display: flex;
@@ -335,6 +335,10 @@ header {
 }
 .footer-flex {
   display: flex;
+}
+.footer-box-address {
+  display: block;
+  margin-left: 215px;
 }
 .list-icons-footer:hover,
 .list-icons-footer:focus,
