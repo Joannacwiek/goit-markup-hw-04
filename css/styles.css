@@ -167,8 +167,9 @@ header {
 }
 .advantages-item {
   flex-basis: calc((100% - 90px) / 4);
-  justify-content: space-between;
-  padding-bottom: 50px;
+  justify-content: center;
+  padding-left: 100px;
+  padding-bottom: 25px;
 }
 .icon-background {
   background-color: #f5f4fa;
@@ -324,7 +325,7 @@ header {
 .social-icons-footer li {
   border-radius: 50%;
   background-color: #3e3e3e;
-  --color1: var(--white-color);
+  fill: var(--white-color);
 }
 .social-icons-footer {
   display: flex;
@@ -353,6 +354,7 @@ header {
 .list-icons-footer:active {
   background-color: var(--blue-color);
   cursor: pointer;
+  fill: var(--white-color);
 }
 /*PORTFOLIO*/
 .button-portfolio {
