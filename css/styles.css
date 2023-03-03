@@ -162,17 +162,17 @@ header {
 /*Our Advantages SECTION*/
 .advantages-list {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   gap: 30px;
 }
 .advantages-item {
   flex-basis: calc((100% - 90px) / 4);
-  justify-content: center;
 }
 .icon-background {
   background-color: #f5f4fa;
   width: 270px;
   border-radius: 4px;
+  padding: 25px 100px;
 }
 .advantages-title {
   font-weight: 700;
@@ -425,6 +425,9 @@ header {
 }
 .img-item:hover {
   cursor: pointer;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.06);
+  box-shadow: 1px 4px 6px 0 rgba(0, 0, 0, 0.16);
 }
 .section {
   padding-top: 94px;
