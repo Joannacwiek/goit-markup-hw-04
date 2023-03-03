@@ -159,16 +159,15 @@ header {
   display: flex;
   justify-content: space-between;
   gap: 30px;
-  flex-direction: block;
 }
 .advantages-item {
   flex-basis: calc((100% - 90px) / 4);
-  /*padding: 0px 100px 225px 100px;*/
+  justify-content: center;
+  padding-bottom: 100px;
 }
 .icon-background {
   background-color: #f5f4fa;
   width: 270px;
-  /*padding: 25px 100px;*/
   border-radius: 4px;
 }
 .advantages-title {
@@ -267,8 +266,7 @@ header {
 .clients-list-item:hover,
 .clients-list-item:focus {
   border-color: var(--blue-color);
-  /*fill: var(--blue-color);*/
-  --icon-color: var(--blue-color);
+  --color1: var(--blue-color);
 }
 .clients-icon-class {
   fill: #afb1b8;
@@ -320,7 +318,7 @@ header {
 .social-icons-footer li {
   border-radius: 50%;
   background-color: #3e3e3e;
-  --icon-color: #ffffff;
+  --color1: var(--white-color);
 }
 .social-icons-footer {
   display: flex;
@@ -333,7 +331,7 @@ header {
   margin-top: 30px;
 }
 .join-title {
-  color: #ffffff;
+  color: var(--white-color);
   text-transform: uppercase;
   line-height: 1.14;
 }
@@ -428,4 +426,9 @@ header {
 }
 .contact-icon {
   fill: #757575;
+}
+.contact-icon:hover,
+.contact-icon:active,
+.contact-icon:focus {
+  fill: var(--blue-color);
 }
