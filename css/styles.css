@@ -162,14 +162,12 @@ header {
 /*Our Advantages SECTION*/
 .advantages-list {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   gap: 30px;
 }
 .advantages-item {
   flex-basis: calc((100% - 90px) / 4);
   justify-content: center;
-  padding-left: 100px;
-  padding-bottom: 25px;
 }
 .icon-background {
   background-color: #f5f4fa;
