@@ -90,9 +90,14 @@ header {
   cursor: pointer;
   text-decoration: none;
 }
-.icon-contact {
-  margin-right: 10px;
-  --color4: var(--blue-color);
+
+.contact-icon {
+  fill: #757575;
+}
+.contact-icon:hover,
+.contact-icon:active,
+.contact-icon:focus {
+  fill: var(--blue-color);
 }
 
 /*hero*/
@@ -162,8 +167,8 @@ header {
 }
 .advantages-item {
   flex-basis: calc((100% - 90px) / 4);
-  justify-content: center;
-  padding-bottom: 100px;
+  justify-content: space-between;
+  padding-bottom: 50px;
 }
 .icon-background {
   background-color: #f5f4fa;
@@ -217,6 +222,7 @@ header {
   flex-wrap: wrap;
   gap: 10px;
   margin-top: 16px;
+  fill: #afb1b8;
 }
 .social-icons > li,
 .social-icons-footer > li {
@@ -227,7 +233,7 @@ header {
 .social-icons li:focus,
 .social-icons:active {
   background-color: var(--blue-color);
-  --icon-color: #ffffff;
+  fill: #ffffff;
   cursor: pointer;
 }
 .box {
@@ -423,12 +429,4 @@ header {
 .section {
   padding-top: 94px;
   padding-bottom: 94px;
-}
-.contact-icon {
-  fill: #757575;
-}
-.contact-icon:hover,
-.contact-icon:active,
-.contact-icon:focus {
-  fill: var(--blue-color);
 }
