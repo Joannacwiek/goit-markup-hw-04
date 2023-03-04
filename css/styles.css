@@ -170,7 +170,7 @@ header {
 }
 .icon-background {
   background-color: #f5f4fa;
-  width: 270px;
+  /*width: 270px;*/
   border-radius: 4px;
   padding: 25px 100px;
 }
