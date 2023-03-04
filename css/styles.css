@@ -242,8 +242,6 @@ header {
 }
 .container-team {
   background-color: #f5f4fa;
-  width: 1600px;
-  margin: auto;
 }
 .box-team {
   display: flex;
@@ -283,8 +281,6 @@ header {
   background-color: var(--background-color);
   color: var(--white-color);
   padding: 60px 0px 60px 0px;
-  max-width: 1600px;
-  margin: 0px auto 0px auto;
 }
 
 .footer-logo {
@@ -345,7 +341,6 @@ header {
 }
 .footer-box-address {
   display: block;
-  margin-left: 215px;
 }
 .list-icons-footer:hover,
 .list-icons-footer:focus,
