@@ -79,10 +79,6 @@ header {
 .address-link:active {
   color: var(--blue-color);
 }
-.nav-link:visited,
-.address-link:visited {
-  color: var(--blue-color);
-}
 .address-link {
   color: var(--brand-color);
   font-weight: 500;
@@ -326,10 +322,6 @@ header {
   gap: 10px;
   margin-top: 20px;
 }
-.footer-join {
-  margin-left: 70px;
-  margin-top: 30px;
-}
 .join-title {
   color: var(--white-color);
   text-transform: uppercase;
@@ -337,6 +329,8 @@ header {
 }
 .footer-flex {
   display: flex;
+  align-items: center;
+  gap: 60px;
 }
 .footer-box-address {
   display: block;
